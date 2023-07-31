@@ -8,7 +8,7 @@ In your `pubspec.yaml` file:
 dependencies:
   ...
   socket_io_client: ^0.9.1
-  laravel_echo:
+  lecho:
 ```
 
 import `socket_io_client`
@@ -21,7 +21,7 @@ usage
 
 ```dart
 // Create echo instance
-Echo echo = new Echo({
+Lecho echo = new Lecho({
   'broadcaster': 'socket.io',
   'client': IO.io,
 });
